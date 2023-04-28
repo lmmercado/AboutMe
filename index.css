@@ -1,0 +1,35 @@
+html header {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  text-decoration: solid;
+  font-size: x-large;
+  color: white;
+}
+
+html body {
+  height: 100%;
+}
+body {
+  background-color: black;
+}
+
+img {
+  display: block;
+  margin: auto;
+  vertical-align: middle;
+}
+
+footer {
+  font-size: x-small;
+  font-style: normal;
+  text-align: center;
+  color: white;
+}
+#picture-container {
+  display: none;
+}
+
+#picture-container.visible {
+  display: flex;
+}
